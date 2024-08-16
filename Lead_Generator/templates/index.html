@@ -8,12 +8,14 @@
 <body>
     <h1>Search for Local Businesses</h1>
     <form action="/search" method="POST">
-        <label for="query">Business Type:</label>
-        <input type="text" id="query" name="query" required>
+        <label for="business_type">Business Type:</label>
+        <input type="text" id="business_type" name="business_type" required>
         <br><br>
-        <label for="location">Location:</label>
-        <input type="text" id="location" name="location" required>
+        <label for="business_city">Business City:</label>
+        <input type="text" id="business_city" name="business_city" required>
         <br><br>
+        <label for="business_state">Business State:</label>
+        <input type="text" id="business_state" name="business_state" required>
         <input type="submit" value="Search">
     </form>
 </body>
